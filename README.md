@@ -184,7 +184,7 @@ Additional visualisations include monthly sales trends, profit margins by catego
 
 An interactive Year slicer allows users to analyse performance across different periods.
 
-![Executive Overview](dashboard/screenshots/01_executive_overview.png)
+![Executive Overview](https://raw.githubusercontent.com/ulianahuber-rgb/retail-sales-profitability-analysis/main/dashboard/screenshots/01_executive_overview.png)
 
 ### 2. Sales & Product Performance
 
