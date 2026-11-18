@@ -18,38 +18,7 @@ The project follows a complete data analysis workflow, from data exploration and
 
 **Final Deliverable:** An interactive Power BI dashboard presenting key business insights and recommendations.
 
-## Project Structure
-
-The project is organised into the following folders and files:
-
-```text
-Retail Sales & Profitability Analysis/
-│
-├── data/
-│   └── processed/
-│       ├── orders_clean.csv
-│       ├── returns_clean.csv
-│       └── people_clean.csv
-│
-├── sql/
-│   ├── 01_database_setup.sql
-│   ├── 02_sales_analysis.sql
-│   └── 03_returns_analysis.sql
-│
-├── dashboard/
-│   └── Retail_Sales_Profitability.pbix
-│
-├── 01_data_understanding.ipynb
-├── 02_orders_eda.ipynb
-├── 03_returns_eda.ipynb
-├── 04_data_integration.ipynb
-│
-└── README.md
-```
-
 ### Folder Description
-
-**data/processed/**
 
 Contains the prepared datasets used for SQL analysis and Power BI reporting.
 
@@ -57,7 +26,7 @@ Contains the prepared datasets used for SQL analysis and Power BI reporting.
 
 Contains SQL scripts for database setup, sales analysis, profitability analysis, and returns analysis.
 
-**dashboard/**
+**dashboard/screenshots/**
 
 Contains the Power BI report with five interactive dashboard pages.
 
@@ -215,7 +184,7 @@ Additional visualisations include monthly sales trends, profit margins by catego
 
 An interactive Year slicer allows users to analyse performance across different periods.
 
-![Executive Overview](dashbourd\screenshots\01_executive_overview.png)
+![Executive Overview](dashboard/screenshots/01_executive_overview.png)
 
 ### 2. Sales & Product Performance
 
@@ -230,7 +199,7 @@ Key visualisations include:
 
 An interactive Category slicer allows users to explore individual product categories.
 
-![Sales & Product Performance](dashbourd\screenshots\02_sales_product_performance.png)
+![Sales & Product Performance](dashbourd/screenshots/02_sales_product_performance.png)
 
 ### 3. Profitability & Discounts
 
@@ -245,7 +214,7 @@ Key visualisations include:
 
 This page helps identify loss-making products, low-profitability locations, and discount levels associated with negative margins.
 
-![Profitability & Discounts](dashbourd\screenshots\03_profitability_discounts.png)
+![Profitability & Discounts](dashbourd/screenshots/03_profitability_discounts.png)
 
 ### 4. Returns Analysis
 
@@ -261,7 +230,7 @@ Key visualisations include:
 
 Interactive filtering allows users to investigate returns during different years.
 
-![Returns Analysis](dashbourd\screenshots\04_returns_analysis.png)
+![Returns Analysis](dashbourd/screenshots/04_returns_analysis.png)
 
 ### 5. Business Insights & Recommendations
 
@@ -276,7 +245,7 @@ The page highlights:
 
 It also provides recommendations for reviewing pricing strategies, improving product profitability, and investigating regional returns.
 
-![Business Insights & Recommendations](dashbourd\screenshots\05_business_insights_recommendations.png)
+![Business Insights & Recommendations](dashbourd/screenshots/05_business_insights_recommendations.png)
 
 ### Dashboard Features
 
