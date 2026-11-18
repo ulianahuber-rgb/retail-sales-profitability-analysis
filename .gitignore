@@ -1,0 +1,25 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python temporary files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment variables and credentials
+.env
+.env.*
+
+# VS Code local settings
+.vscode/
+
+# Windows temporary files
+Thumbs.db
+Desktop.ini
+# Dataset files
+sample_-_superstore.xls
+data/processed/*.csv
+
+# Power BI file with imported data
+dashboard/*.pbix
